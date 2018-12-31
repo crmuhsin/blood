@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="navbar-brand"><img src="images/log.png" alt="mbdc"></a>
+                <a href="index.php" class="navbar-brand"><img src="log.png" alt="mbdc"></a>
             </div>
             <!-- Navbar-Header -->
 

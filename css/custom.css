@@ -8,7 +8,7 @@ body {
 	padding-top: 50px; 
 	min-height: 100%;
 	text-align: center;
-	background: url(../images/wa1.png) no-repeat center fixed;
+	background: url(../wa1.png) no-repeat center fixed;
     background-size: cover;
 }
 /*form styles*/
