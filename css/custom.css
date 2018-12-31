@@ -1,0 +1,154 @@
+html {
+	height: 100%;
+	margin: 0 auto; 
+	padding: 0;
+}
+body {
+	font: 14px sans-serif; 
+	padding-top: 50px; 
+	min-height: 100%;
+	text-align: center;
+	background: url(../images/wa1.png) no-repeat center fixed;
+    background-size: cover;
+}
+/*form styles*/
+#regiration_form {
+	width: auto;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+}
+#regiration_form fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+#regiration_form input, #regiration_form textarea{
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+/*input[type="file"] { margin: 0 auto; }
+*/
+#regiration_form fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#regiration_form .next, #regiration_form .previous, .submission {
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#regiration_form .next:hover, #regiration_form .next:focus, #regiration_form .previous:hover, #regiration_form .previous:focus{
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+th, td {
+	text-align: left;
+}
+
+.well {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.well h3, h4 {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar {
+	min-height: 72px;
+}
+.navbar-default {
+  background-color: #b8d4e5;
+}
+.navbar-brand{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-brand img {
+	height: 70px;
+	width: 270px;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+	.navbar-brand img {
+		height: 100%;
+		width: 100%;
+	}
+}
+.btn-succes {
+	color: #204a21;
+	background-color: #a5c29a;
+	padding: 10px 60px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #262626;
+	background-color: #95bc87;
+}
+.dropdown-menu{
+	background-color: #a5c29a;
+}
+.edit_field {
+	margin:auto;
+	padding:10px;
+  	background-color: transparent;
+}
+
+.edit-table th{
+	width: 35%;
+  	background-color: #dff0d8;
+}
+.edit-table tr td:first-of-type {
+	width: 60%;
+  	background-color: #fcf8e3;
+}
+.edit-table tr td:last-of-type {
+	width: 5%;
+  	background-color: #b8d4e5;
+
+}
+
+.jumbotron{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  	background-color: transparent;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+
+.nav li a{
+	height: 70px;
+	line-height: 35px;
+  	background-color: transparent;
+  	font-weight: bold;
+}
+
